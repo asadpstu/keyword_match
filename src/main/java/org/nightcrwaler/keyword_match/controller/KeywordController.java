@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/keywords")
+@CrossOrigin(
+        origins = "http://localhost:3000",
+        methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.OPTIONS},
+        allowedHeaders = "*"
+)
 public class KeywordController {
 
     private final KeywordRepository repo;

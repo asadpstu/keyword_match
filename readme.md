@@ -30,3 +30,14 @@ Aget the keywordresult for a user.
 }
 
 ---
+
+### Run the app
+Backend: 
+Open project in your favorite ide. (Intellij IDEA). Run the app. it will run on port 8080.
+
+Frontend: 
+$ cd frontend
+$ npm install
+$ npm start
+
+open browser, frontend app is running on http://localhost:3000
