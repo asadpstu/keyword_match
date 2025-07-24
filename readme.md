@@ -15,7 +15,7 @@ Add a new keyword for a user.
 {
   "keyword": "dhaka"
 }
-
+```
 ---
 
 ### 🔷 annotate
@@ -28,5 +28,15 @@ Aget the keywordresult for a user.
 {
     "content" : "I live in bangladesh. Specifically in Dhaka. i like apple pie"
 }
-
+```
 ---
+
+
+Frontend: 
+```
+$ cd frontend
+$ npm install
+$ npm start
+```
+
+Frontend app will run on http://localhost:3000 port
